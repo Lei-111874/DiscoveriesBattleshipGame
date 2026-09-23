@@ -2,7 +2,7 @@
 
 # GrupoTP05_LEI-2
 
-## Alunos
+## Alunos LEI
 
 | Alunos              | Números |
 |----------------------|---------|
