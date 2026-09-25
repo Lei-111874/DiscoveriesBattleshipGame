@@ -1,5 +1,7 @@
+```java
 /**
- *
+ * Representa uma nau no jogo Batalha Naval.
+ * A nau ocupa três posições no tabuleiro.
  */
 package iscteiul.ista.battleship;
 
@@ -8,8 +10,11 @@ public class Carrack extends Ship {
     private static final String NAME = "Nau";
 
     /**
-     * @param bearing
-     * @param pos
+     * Cria uma nova nau com a orientação e a posição inicial indicadas.
+     *
+     * @param bearing orientação da nau
+     * @param pos posição inicial da nau no tabuleiro
+     * @throws IllegalArgumentException se a orientação da nau for inválida
      */
     public Carrack(Compass bearing, IPosition pos) throws IllegalArgumentException {
         super(Carrack.NAME, bearing, pos);
@@ -29,10 +34,10 @@ public class Carrack extends Ship {
         }
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém o tamanho da nau.
      *
-     * @see battleship.Ship#getSize()
+     * @return tamanho da nau, que é sempre 3
      */
     @Override
     public Integer getSize() {
@@ -40,3 +45,4 @@ public class Carrack extends Ship {
     }
 
 }
+```
