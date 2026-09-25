@@ -1,3 +1,4 @@
+```java
 /**
  *
  */
@@ -16,10 +17,12 @@ public abstract class Ship implements IShip {
     private static final String BARCA = "barca";
 
     /**
-     * @param shipKind
-     * @param bearing
-     * @param pos
-     * @return
+     * Cria um navio de acordo com o tipo, direção e posição fornecidos.
+     *
+     * @param shipKind tipo de navio a criar
+     * @param bearing direção do navio
+     * @param pos posição inicial do navio
+     * @return o navio criado ou null caso o tipo não seja reconhecido
      */
     static Ship buildShip(String shipKind, Compass bearing, Position pos) {
         Ship s;
@@ -53,9 +56,11 @@ public abstract class Ship implements IShip {
 
 
     /**
-     * @param category
-     * @param bearing
-     * @param pos
+     * Constrói um navio com uma categoria, direção e posição inicial.
+     *
+     * @param category categoria do navio
+     * @param bearing direção do navio
+     * @param pos posição inicial do navio
      */
     public Ship(String category, Compass bearing, IPosition pos) {
         assert bearing != null;
@@ -78,7 +83,9 @@ public abstract class Ship implements IShip {
     }
 
     /**
-     * @return the positions
+     * Obtém as posições ocupadas pelo navio.
+     *
+     * @return lista de posições ocupadas pelo navio
      */
     public List<IPosition> getPositions() {
         return positions;
@@ -241,3 +248,4 @@ public abstract class Ship implements IShip {
     }
 
 }
+```
