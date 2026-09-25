@@ -8,6 +8,7 @@
 |----------------------|---------|
 | Fábio do Rosário     | 111874  |
 | Afonso Silva         | 122697  |
+| Hugo Furtado         | 110801  |
 
 Versão acadêmica básica do jogo Batalha Naval para usar como base.
 
