@@ -1,5 +1,7 @@
+```java
 /**
- *
+ * Representa uma caravela no jogo Batalha Naval.
+ * A caravela ocupa duas posições no tabuleiro.
  */
 package iscteiul.ista.battleship;
 
@@ -8,8 +10,12 @@ public class Caravel extends Ship {
     private static final String NAME = "Caravela";
 
     /**
-     * @param bearing the bearing where the Caravel heads to
-     * @param pos     initial point for positioning the Caravel
+     * Cria uma nova caravela com a orientação e a posição inicial indicadas.
+     *
+     * @param bearing orientação da caravela
+     * @param pos posição inicial da caravela no tabuleiro
+     * @throws NullPointerException se a orientação da caravela for nula
+     * @throws IllegalArgumentException se a orientação da caravela for inválida
      */
     public Caravel(Compass bearing, IPosition pos) throws NullPointerException, IllegalArgumentException {
         super(Caravel.NAME, bearing, pos);
@@ -34,10 +40,10 @@ public class Caravel extends Ship {
 
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém o tamanho da caravela.
      *
-     * @see battleship.Ship#getSize()
+     * @return tamanho da caravela, que é sempre 2
      */
     @Override
     public Integer getSize() {
@@ -45,3 +51,4 @@ public class Caravel extends Ship {
     }
 
 }
+```
