@@ -12,7 +12,11 @@ public class Position implements IPosition {
     private boolean isHit;
 
     /**
+     * Cria uma nova posição com a linha e coluna indicadas.
+     * Inicialmente, a posição não está ocupada nem foi atingida.
      *
+     * @param row linha da posição
+     * @param column coluna da posição
      */
     public Position(int row, int column) {
         this.row = row;
