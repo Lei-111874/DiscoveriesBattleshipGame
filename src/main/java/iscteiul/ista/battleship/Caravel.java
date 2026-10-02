@@ -1,4 +1,4 @@
-```java
+
 /**
  * Representa uma caravela no jogo Batalha Naval.
  * A caravela ocupa duas posições no tabuleiro.
@@ -51,4 +51,4 @@ public class Caravel extends Ship {
     }
 
 }
-```
+

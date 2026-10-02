@@ -1,4 +1,4 @@
-```java
+
 /**
  * Representa uma frota de navios no jogo Batalha Naval.
  */
@@ -102,6 +102,7 @@ public class Fleet implements IFleet {
         return null;
     }
 
+
     /**
      * Verifica se um navio está completamente dentro dos limites do tabuleiro.
      *
@@ -125,4 +126,46 @@ public class Fleet implements IFleet {
             if (ships.get(i).tooCloseTo(s))
                 return true;
         }
-```
+        return false;
+    }
+
+    /**
+     * This operation shows the state of a fleet
+     */
+    public void printStatus() {
+        printAllShips();
+        printFloatingShips();
+        printShipsByCategory("Galeao");
+        printShipsByCategory("Fragata");
+        printShipsByCategory("Nau");
+        printShipsByCategory("Caravela");
+        printShipsByCategory("Barca");
+    }
+
+    /**
+     * This operation prints all the ships of a fleet belonging to a particular
+     * category
+     *
+     * @param category The category of ships of interest
+     */
+    public void printShipsByCategory(String category) {
+        assert category != null;
+
+        printShips(getShipsLike(category));
+    }
+
+    /**
+     * This operation prints all the ships of a fleet but not yet shot
+     */
+    public void printFloatingShips() {
+        printShips(getFloatingShips());
+    }
+
+    /**
+     * This operation prints all the ships of a fleet
+     */
+    void printAllShips() {
+        printShips(ships);
+    }
+
+}
