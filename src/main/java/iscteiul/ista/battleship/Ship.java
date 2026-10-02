@@ -1,4 +1,4 @@
-```java
+
 /**
  *
  */
@@ -7,6 +7,7 @@ package iscteiul.ista.battleship;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
 
 public abstract class Ship implements IShip {
 

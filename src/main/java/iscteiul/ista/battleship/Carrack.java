@@ -1,4 +1,4 @@
-```java
+
 /**
  * Representa uma nau no jogo Batalha Naval.
  * A nau ocupa três posições no tabuleiro.
@@ -45,4 +45,4 @@ public class Carrack extends Ship {
     }
 
 }
-```
+

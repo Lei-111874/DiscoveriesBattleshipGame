@@ -1,4 +1,4 @@
-```java
+
 /**
  * Representa as orientações possíveis dos navios no jogo Batalha Naval.
  */
@@ -73,4 +73,4 @@ public enum Compass {
         return bearing;
     }
 }
-```
+

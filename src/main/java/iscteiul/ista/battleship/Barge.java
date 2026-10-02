@@ -1,4 +1,5 @@
-/** 
+
+/**
 * Representa uma barca no jogo Batalha Naval. 
 * Uma barca ocupa apenas uma posição no tabuleiro. 
 */
