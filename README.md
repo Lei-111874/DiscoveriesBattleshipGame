@@ -4,11 +4,12 @@
 
 ## Alunos LEI
 
-| Alunos              | Números | 
-|----------------------|---------|
-| Fábio do Rosário     | 111874  |
-| Afonso Silva         | 122697  |
-| Hugo Furtado (TP04)  | 110801  | 
+| Alunos                  | Números | 
+|-------------------------|---------|
+| Fábio do Rosário        | 111874  |
+| Afonso Silva            | 122697  |
+| Hugo Furtado (TP04)     | 110801  |
+| Martim Cordeiro (TP03)  | 111396  |
 
 Versão acadêmica básica do jogo Batalha Naval para usar como base.
 
