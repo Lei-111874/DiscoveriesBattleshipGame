@@ -47,4 +47,4 @@ A correspondência entre os navios da Batalha Naval clássica e os da versão do
 
 Cada jogador posiciona a sua frota completa (11 navios no total) numa grelha 10x10, seguindo orientação horizontal ou vertical, sem que os navios se toquem entre si (embora possam estar encostados à borda da grelha).
 
-.
+..
